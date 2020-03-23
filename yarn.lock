@@ -4651,6 +4651,11 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
+fetch-factorized@^1.5.14:
+  version "1.5.14"
+  resolved "https://registry.yarnpkg.com/fetch-factorized/-/fetch-factorized-1.5.14.tgz#2d0522429b202efe15c2e55e7fa4ea23f763ad85"
+  integrity sha512-GP0zDsgOMTbZ85+3o2vqoixNPiB5PzY16KfpLTWi9GgdI4Y6MoNqKV4e90INSyfQYw8eGjGR7W5JMzaB6PWPYQ==
+
 figgy-pudding@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"

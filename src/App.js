@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {get} from 'fetch-factorized';
 
 function App() {
+
+  useEffect(() => {
+    get('http://localhost:3000/').then(console.log);
+  },[]);
+
   return (
     <div className="App">
       <header className="App-header">
